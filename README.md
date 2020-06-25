@@ -22,3 +22,13 @@ import getGitlabToken from 'getGitlabToken';
 	console.info('Communication Data', data);
 })();
 ```
+
+For accessing GitLab, I used `@gitbeaker/node`
+```
+    const api = new Gitlab({ // gitbeaker instance
+        host: gitlabUrl,
+        oauthToken: data.token
+    });
+```
+
+For storing the user name and password in any OS key storage, I used `keytar`
