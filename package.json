@@ -1,0 +1,20 @@
+{
+  "name": "getgitlabtoken",
+  "version": "1.0.0",
+  "description": "Get a personal connection token by username and password, for further comunication from gitlab",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node -r esm index.mjs"
+  },
+  "keywords": [
+    "gitlab",
+    "connect",
+    "oauth",
+    "token"
+  ],
+  "author": "Nabil Redmann <repo+gitlab@bananaacid.de>",
+  "license": "MIT",
+  "devdependencies": {
+    "esm": "^3.2.25"
+  }
+}

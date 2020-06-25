@@ -1,9 +1,4 @@
-# getGitlabToken
- Get a personal connection token by username and password, for further comunication from gitlab
-
-
-```
-import getGitlabToken from 'getGitlabToken';
+import getGitlabToken from './src/index.mjs';
 
 
 (async()=> {
@@ -21,4 +16,3 @@ import getGitlabToken from 'getGitlabToken';
 	console.info('OAuth personal login token:', data.token);
 	console.info('Communication Data', data);
 })();
-```
