@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node -r esm index.mjs"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BananaAcid/getGitlabToken.git"
+  }
   "keywords": [
     "gitlab",
     "connect",
